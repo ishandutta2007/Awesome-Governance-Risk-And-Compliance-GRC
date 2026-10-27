@@ -1,0 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060913" />
+      <stop offset="45%" stop-color="#0b1329" />
+      <stop offset="80%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#050a17" />
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#6366f1" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.9" />
+    </linearGradient>
+
+    <radialGradient id="radarGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25" />
+      <stop offset="60%" stop-color="#6366f1" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#0b1329" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glowPulse" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35" />
+      <stop offset="70%" stop-color="#818cf8" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#0b1329" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="cyberGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#38bdf8" stroke-width="0.75" stroke-opacity="0.07" />
+      <circle cx="40" cy="40" r="1.5" fill="#818cf8" fill-opacity="0.15" />
+    </pattern>
+
+    <!-- Drop Shadows -->
+    <filter id="shadowFilter" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#000000" flood-opacity="0.75" />
+    </filter>
+
+    <filter id="glowFilter" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur" />
+      <feMerge>
+        <feMergeNode in="coloredBlur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulseAura {
+      0%, 100% { transform: scale(1); opacity: 0.4; }
+      50% { transform: scale(1.15); opacity: 0.7; }
+    }
+    @keyframes radarSpin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    @keyframes floatPill1 {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-7px); }
+    }
+    @keyframes floatPill2 {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(7px); }
+    }
+    @keyframes dashCycle {
+      0% { stroke-dashoffset: 0; }
+      100% { stroke-dashoffset: 200; }
+    }
+    .anim-pulse {
+      transform-origin: 600px 85px;
+      animation: pulseAura 4s ease-in-out infinite;
+    }
+    .anim-radar {
+      transform-origin: 1040px 180px;
+      animation: radarSpin 14s linear infinite;
+    }
+    .pill-float-1 {
+      animation: floatPill1 5s ease-in-out infinite;
+    }
+    .pill-float-2 {
+      animation: floatPill2 6s ease-in-out infinite;
+    }
+    .circuit-line {
+      stroke-dasharray: 8 6;
+      animation: dashCycle 15s linear infinite;
+    }
+  </style>
+
+  <!-- Background Layer -->
+  <rect width="1200" height="420" fill="url(#bgGrad)" />
+  <rect width="1200" height="420" fill="url(#cyberGrid)" />
+
+  <!-- Animated Ambient Radar / Background Scan Circles -->
+  <g class="anim-radar" opacity="0.45">
+    <circle cx="1040" cy="180" r="160" fill="none" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.3" stroke-dasharray="5 5" />
+    <circle cx="1040" cy="180" r="110" fill="none" stroke="#818cf8" stroke-width="1" stroke-opacity="0.4" />
+    <circle cx="1040" cy="180" r="50" fill="none" stroke="#c084fc" stroke-width="1" stroke-opacity="0.5" />
+    <line x1="1040" y1="180" x2="1200" y2="180" stroke="#38bdf8" stroke-width="2" stroke-opacity="0.6" />
+  </g>
+  <circle cx="1040" cy="180" r="170" fill="url(#radarGrad)" pointer-events="none" />
+
+  <!-- Left Ambient Background Circuit Elements -->
+  <g opacity="0.35">
+    <circle cx="120" cy="190" r="120" fill="none" stroke="#38bdf8" stroke-width="1" stroke-dasharray="4 8" />
+    <circle cx="120" cy="190" r="70" fill="none" stroke="#818cf8" stroke-width="0.8" />
+    <path d="M 0 100 L 120 100 L 170 150 L 260 150" fill="none" stroke="#38bdf8" stroke-width="1.5" class="circuit-line" />
+    <path d="M 0 320 L 150 320 L 200 270 L 320 270" fill="none" stroke="#818cf8" stroke-width="1.5" class="circuit-line" />
+    <circle cx="260" cy="150" r="3.5" fill="#38bdf8" />
+    <circle cx="320" cy="270" r="3.5" fill="#818cf8" />
+  </g>
+
+  <!-- Glowing Emblem Aura -->
+  <circle cx="600" cy="85" r="70" fill="url(#glowPulse)" class="anim-pulse" pointer-events="none" />
+
+  <!-- Central Shield Crest Icon -->
+  <g transform="translate(565, 45)" filter="url(#glowFilter)">
+    <!-- Outer Shield -->
+    <path d="M 35 0 L 68 12 C 68 46 51 68 35 78 C 19 68 2 46 2 12 Z" fill="url(#shieldGrad)" />
+    <!-- Inner Shield Inset -->
+    <path d="M 35 5 L 63 15 C 63 43 49 63 35 72 C 21 63 7 43 7 15 Z" fill="#0b1329" />
+    <!-- Checkmark & Balance Scale Emblem -->
+    <path d="M 23 38 L 31 46 L 47 28" fill="none" stroke="#38bdf8" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- FOREGROUND TEXT (High Contrast, Guaranteed Foreground Readability) -->
+  <g filter="url(#shadowFilter)">
+    <!-- Top Pill / Super-header -->
+    <g transform="translate(435, 136)">
+      <rect x="0" y="0" width="330" height="28" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.6" />
+      <circle cx="16" cy="14" r="5" fill="#22c55e" />
+      <text x="32" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#93c5fd" letter-spacing="1.2">ENTERPRISE &amp; OPEN-SOURCE GRC ECOSYSTEM</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="600" y="215" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Segoe UI Emoji', sans-serif" font-size="44" font-weight="900" fill="#ffffff" letter-spacing="-0.5">
+      Awesome Governance, Risk &amp; Compliance
+    </text>
+
+    <!-- Gradient Sub-title -->
+    <text x="600" y="258" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700" fill="url(#accentGrad)" letter-spacing="0.5">
+      Integrated Risk Management • Regulatory Compliance • Audit Automation
+    </text>
+
+    <!-- Secondary Tagline -->
+    <text x="600" y="295" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="400" fill="#94a3b8" letter-spacing="0.3">
+      The definitive curated catalog of category-leading SaaS suites and production-ready open-source platforms
+    </text>
+  </g>
+
+  <!-- FLOATING BADGES / PILLS (Bottom Decorative Elements) -->
+  <g class="pill-float-1" transform="translate(110, 335)">
+    <rect width="135" height="34" rx="17" fill="#0f172a" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.7" />
+    <text x="67" y="22" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">🛡️ ISO 27001 / 27005</text>
+  </g>
+
+  <g class="pill-float-2" transform="translate(265, 335)">
+    <rect width="125" height="34" rx="17" fill="#0f172a" stroke="#818cf8" stroke-width="1.2" stroke-opacity="0.7" />
+    <text x="62" y="22" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">📋 SOC 2 Type II</text>
+  </g>
+
+  <g class="pill-float-1" transform="translate(410, 335)">
+    <rect width="135" height="34" rx="17" fill="#0f172a" stroke="#c084fc" stroke-width="1.2" stroke-opacity="0.7" />
+    <text x="67" y="22" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">⚖️ NIST CSF 2.0</text>
+  </g>
+
+  <g class="pill-float-2" transform="translate(565, 335)">
+    <rect width="135" height="34" rx="17" fill="#0f172a" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.7" />
+    <text x="67" y="22" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">🇪🇺 DORA &amp; NIS2</text>
+  </g>
+
+  <g class="pill-float-1" transform="translate(720, 335)">
+    <rect width="140" height="34" rx="17" fill="#0f172a" stroke="#818cf8" stroke-width="1.2" stroke-opacity="0.7" />
+    <text x="70" y="22" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">🔒 TPRM &amp; Vendor Risk</text>
+  </g>
+
+  <g class="pill-float-2" transform="translate(880, 335)">
+    <rect width="130" height="34" rx="17" fill="#0f172a" stroke="#c084fc" stroke-width="1.2" stroke-opacity="0.7" />
+    <text x="65" y="22" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">🤖 AI Governance</text>
+  </g>
+
+  <g class="pill-float-1" transform="translate(1030, 335)">
+    <rect width="115" height="34" rx="17" fill="#0f172a" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.7" />
+    <text x="57" y="22" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">⚡ 270+ MCP Tools</text>
+  </g>
+
+  <!-- Modern Subtle Outer Border -->
+  <rect x="1" y="1" width="1198" height="418" rx="8" fill="none" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.25" />
+</svg>
