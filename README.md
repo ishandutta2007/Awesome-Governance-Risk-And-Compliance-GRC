@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Governance-Risk-And-Compliance-GRC/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Governance-Risk-And-Compliance-GRC?style=flat-square&logo=github&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Governance-Risk-And-Compliance-GRC/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Governance-Risk-And-Compliance-GRC?style=flat-square&logo=github&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Governance-Risk-And-Compliance-GRC/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Governance-Risk-And-Compliance-GRC?style=flat-square&logo=github&color=blue" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Governance-Risk-And-Compliance-GRC/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Governance-Risk-And-Compliance-GRC/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square" alt="License"/></a>
@@ -63,74 +63,74 @@ The table below lists the category-leading enterprise GRC and IRM SaaS platforms
 
 Below are active open-source repositories for Governance, Risk, and Compliance, continuous security auditing, policy-as-code, and compliance automation.
 
-> **Sorted in descending order by GitHub Stars.** Each repository includes a real-time star badge linking directly to its GitHub stargazers.
+> **Sorted in descending order by GitHub_Stars.** Each repository includes a real-time Stars_Badge linking directly to its GitHub stargazers.
 
-### 1. 🛡️ [Wazuh](https://github.com/wazuh/wazuh) [![GitHub stars](https://img.shields.io/github/stars/wazuh/wazuh?style=social&color=white)](https://github.com/wazuh/wazuh/stargazers)
+### 1. 🛡️ [Wazuh](https://github.com/wazuh/wazuh) [![GitHub_Stars](https://img.shields.io/github/stars/wazuh/wazuh?style=social&color=white)](https://github.com/wazuh/wazuh/stargazers)
 * **License**: GPL-2.0  
 * **Focus**: Unified XDR, SIEM & Regulatory Compliance Monitoring  
 * **Description**: Enterprise-ready security monitoring platform that automatically audits systems against regulatory compliance benchmarks—including **PCI-DSS v4.0**, **HIPAA**, **GDPR**, **NIST SP 800-53**, and **TSC SOC 2**. Features automated file integrity monitoring (FIM), vulnerability detection, configuration assessment, and continuous compliance auditing across on-prem, multi-cloud, and containerized infrastructure.
 
-### 2. 🔍 [Lynis](https://github.com/CISOfy/lynis) [![GitHub stars](https://img.shields.io/github/stars/CISOfy/lynis?style=social&color=white)](https://github.com/CISOfy/lynis/stargazers)
+### 2. 🔍 [Lynis](https://github.com/CISOfy/lynis) [![GitHub_Stars](https://img.shields.io/github/stars/CISOfy/lynis?style=social&color=white)](https://github.com/CISOfy/lynis/stargazers)
 * **License**: GPL-3.0  
 * **Focus**: Automated Security Auditing & Compliance Verification  
 * **Description**: Battle-tested, battle-proven security auditing tool for Linux, macOS, and UNIX operating systems. Lynis conducts deep host-level compliance inspections against **ISO 27001**, **PCI DSS**, **HIPAA**, and **CIS Benchmarks**, delivering actionable remediation tips, hardening indexes, and modular compliance scan reports without requiring heavy agents.
 
-### 3. ☁️ [Prowler](https://github.com/prowler-cloud/prowler) [![GitHub stars](https://img.shields.io/github/stars/prowler-cloud/prowler?style=social&color=white)](https://github.com/prowler-cloud/prowler/stargazers)
+### 3. ☁️ [Prowler](https://github.com/prowler-cloud/prowler) [![GitHub_Stars](https://img.shields.io/github/stars/prowler-cloud/prowler?style=social&color=white)](https://github.com/prowler-cloud/prowler/stargazers)
 * **License**: Apache-2.0  
 * **Focus**: Multi-Cloud Security Assessment & Continuous Compliance  
 * **Description**: The industry-standard open-source cloud security scanner for AWS, Azure, Google Cloud Platform (GCP), and Kubernetes. Prowler automates security assessments and compliance audits against **30+ regulatory frameworks**—including CIS Benchmarks, NIST 800-53, ISO/IEC 27001, SOC 2, PCI-DSS, GDPR, HIPAA, and FFIEC—generating audit-ready JSON, CSV, and HTML compliance artifacts.
 
-### 4. 📜 [Open Policy Agent (OPA)](https://github.com/open-policy-agent/opa) [![GitHub stars](https://img.shields.io/github/stars/open-policy-agent/opa?style=social&color=white)](https://github.com/open-policy-agent/opa/stargazers)
+### 4. 📜 [Open Policy Agent (OPA)](https://github.com/open-policy-agent/opa) [![GitHub_Stars](https://img.shields.io/github/stars/open-policy-agent/opa?style=social&color=white)](https://github.com/open-policy-agent/opa/stargazers)
 * **License**: Apache-2.0  
 * **Focus**: Policy-as-Code & Unified Governance Enforcement  
 * **Description**: CNCF graduated general-purpose policy engine providing expressive declarative policy language (Rego). Enables organizations to codify governance, risk guardrails, and compliance requirements across microservices, Kubernetes admission controllers, API gateways, and CI/CD deployment pipelines to guarantee continuous compliance.
 
-### 5. 🪲 [DefectDojo](https://github.com/DefectDojo/django-DefectDojo) [![GitHub stars](https://img.shields.io/github/stars/DefectDojo/django-DefectDojo?style=social&color=white)](https://github.com/DefectDojo/django-DefectDojo/stargazers)
+### 5. 🪲 [DefectDojo](https://github.com/DefectDojo/django-DefectDojo) [![GitHub_Stars](https://img.shields.io/github/stars/DefectDojo/django-DefectDojo?style=social&color=white)](https://github.com/DefectDojo/django-DefectDojo/stargazers)
 * **License**: BSD-3-Clause  
 * **Focus**: Vulnerability Management, Risk Remediation & Security Verification  
 * **Description**: OWASP flagship application vulnerability correlation and security orchestration tool. Aggregates findings from 150+ security scanners, deduplicates vulnerabilities, tracks remediation SLAs, maps risks to regulatory compliance standards, and generates executive risk-posture reports.
 
-### 6. 📋 [CISO Assistant](https://github.com/intuitem/ciso-assistant-community) [![GitHub stars](https://img.shields.io/github/stars/intuitem/ciso-assistant-community?style=social&color=white)](https://github.com/intuitem/ciso-assistant-community/stargazers)
+### 6. 📋 [CISO Assistant](https://github.com/intuitem/ciso-assistant-community) [![GitHub_Stars](https://img.shields.io/github/stars/intuitem/ciso-assistant-community?style=social&color=white)](https://github.com/intuitem/ciso-assistant-community/stargazers)
 * **License**: AGPL-3.0  
 * **Focus**: All-in-One Enterprise GRC & Framework Mapping Platform  
 * **Description**: The most comprehensive community-driven open-source GRC suite. Native support for **220+ international security frameworks and 45+ mapping sets** with automatic control crosswalks (covering ISO 27001:2022, NIST CSF, SOC 2, PCI DSS, NIS2, DORA, GDPR, and CMMC). Features an integrated risk register (ISO 27005 & EBIOS RM), Third-Party Risk Management (TPRM), Business Impact Analysis (BIA), REST API, Model Context Protocol (MCP) agent support, and built-in AI compliance copilot.
 
-### 7. 💻 [ComplianceAsCode](https://github.com/ComplianceAsCode/content) [![GitHub stars](https://img.shields.io/github/stars/ComplianceAsCode/content?style=social&color=white)](https://github.com/ComplianceAsCode/content/stargazers)
+### 7. 💻 [ComplianceAsCode](https://github.com/ComplianceAsCode/content) [![GitHub_Stars](https://img.shields.io/github/stars/ComplianceAsCode/content?style=social&color=white)](https://github.com/ComplianceAsCode/content/stargazers)
 * **License**: BSD-3-Clause  
 * **Focus**: Security Content Automation Protocol (SCAP) & Baseline Enforcement  
 * **Description**: SCAP Security Guide project providing automated compliance baselines, remediation playbooks (Ansible, Bash), and OpenSCAP automated auditing policies for enterprise Linux distributions and cloud workloads against DISA STIG, USGCB, PCI-DSS, and CIS baselines.
 
-### 8. 📝 [Comply](https://github.com/strongdm/comply) [![GitHub stars](https://img.shields.io/github/stars/strongdm/comply?style=social&color=white)](https://github.com/strongdm/comply/stargazers)
+### 8. 📝 [Comply](https://github.com/strongdm/comply) [![GitHub_Stars](https://img.shields.io/github/stars/strongdm/comply?style=social&color=white)](https://github.com/strongdm/comply/stargazers)
 * **License**: Apache-2.0  
 * **Focus**: SOC 2 Compliance Automation & Policy Management  
 * **Description**: Command-line SOC 2 compliance automation framework written in Go. Automates policy document authoring with Markdown, tracks procedure checklists, tickets evidence collection in GitHub/Jira, and builds audit-ready compliance packages for third-party auditors.
 
-### 9. 🤖 [Probo](https://github.com/getprobo/probo) [![GitHub stars](https://img.shields.io/github/stars/getprobo/probo?style=social&color=white)](https://github.com/getprobo/probo/stargazers)
+### 9. 🤖 [Probo](https://github.com/getprobo/probo) [![GitHub_Stars](https://img.shields.io/github/stars/getprobo/probo?style=social&color=white)](https://github.com/getprobo/probo/stargazers)
 * **License**: ISC  
 * **Focus**: AI-Native GRC Platform with 270+ MCP Automation Tools  
 * **Description**: Modern, developer-first GRC suite for engineering and security teams pursuing SOC 2, ISO 27001, and GDPR. Includes inherent and residual risk matrices, control libraries, vendor risk management (TPRM), data protection impact assessments (DPIA), access review workflows, a dedicated `prb` CLI with 44+ command groups, GraphQL API, and **270+ MCP tools** enabling autonomous AI agent workflows.
 
-### 10. ⚡ [GovReady-Q](https://github.com/GovReady/govready-q) [![GitHub stars](https://img.shields.io/github/stars/GovReady/govready-q?style=social&color=white)](https://github.com/GovReady/govready-q/stargazers)
+### 10. ⚡ [GovReady-Q](https://github.com/GovReady/govready-q) [![GitHub_Stars](https://img.shields.io/github/stars/GovReady/govready-q?style=social&color=white)](https://github.com/GovReady/govready-q/stargazers)
 * **License**: GPL-3.0  
 * **Focus**: DevSecOps Self-Service Assessment & ATO Automation  
 * **Description**: Open-source, self-service GRC platform designed to automate System Security Plans (SSPs) and fast-track Authority to Operate (ATO) assessments for NIST SP 800-53 and FedRAMP compliance in DevSecOps environments.
 
-### 11. 🏢 [Unicis Platform CE](https://github.com/UnicisTech/unicis-platform-ce) [![GitHub stars](https://img.shields.io/github/stars/UnicisTech/unicis-platform-ce?style=social&color=white)](https://github.com/UnicisTech/unicis-platform-ce/stargazers)
+### 11. 🏢 [Unicis Platform CE](https://github.com/UnicisTech/unicis-platform-ce) [![GitHub_Stars](https://img.shields.io/github/stars/UnicisTech/unicis-platform-ce?style=social&color=white)](https://github.com/UnicisTech/unicis-platform-ce/stargazers)
 * **License**: Apache-2.0  
 * **Focus**: Transparent GRC & Compliance Alternative to Vanta/Drata  
 * **Description**: All-in-one privacy and compliance automation platform for startups and SMEs. Delivers automated evidence collection, risk register tracking, policy management, and compliance workflows for **ISO 27001**, **SOC 2**, **GDPR**, and **NIST** with self-hosted and air-gapped deployment support.
 
-### 12. 📊 [SimpleRisk](https://github.com/simplerisk/code) [![GitHub stars](https://img.shields.io/github/stars/simplerisk/code?style=social&color=white)](https://github.com/simplerisk/code/stargazers)
+### 12. 📊 [SimpleRisk](https://github.com/simplerisk/code) [![GitHub_Stars](https://img.shields.io/github/stars/simplerisk/code?style=social&color=white)](https://github.com/simplerisk/code/stargazers)
 * **License**: AGPL-3.0  
 * **Focus**: Straightforward Enterprise Risk Assessment & Mitigation Tracking  
 * **Description**: Popular open-source risk management solution engineered for simplicity. Provides centralized risk registers, risk scoring (Classic, CVSS, DREAD), risk mitigation workflows, audit tracking, and security control mapping. Docker-ready and easy to stand up in minutes.
 
-### 13. 📦 [Eramba](https://github.com/eramba/docker) [![GitHub stars](https://img.shields.io/github/stars/eramba/docker?style=social&color=white)](https://github.com/eramba/docker/stargazers)
+### 13. 📦 [Eramba](https://github.com/eramba/docker) [![GitHub_Stars](https://img.shields.io/github/stars/eramba/docker?style=social&color=white)](https://github.com/eramba/docker/stargazers)
 * **License**: Eramba Community / Custom Open  
 * **Focus**: Mature Enterprise GRC, Internal Controls & Policy Management  
 * **Description**: Long-running enterprise GRC software offering a free Community edition with no user or asset count restrictions. Covers risk management, policy life-cycle reviews, internal controls testing, security incident logging, vendor risk assessments, and compliance mapping for ISO 27001 and PCI DSS.
 
-### 14. 🧭 [Cairn](https://github.com/frousselet/cairn) [![GitHub stars](https://img.shields.io/github/stars/frousselet/cairn?style=social&color=white)](https://github.com/frousselet/cairn/stargazers)
+### 14. 🧭 [Cairn](https://github.com/frousselet/cairn) [![GitHub_Stars](https://img.shields.io/github/stars/frousselet/cairn?style=social&color=white)](https://github.com/frousselet/cairn/stargazers)
 * **License**: GNU AGPL-3.0  
 * **Focus**: Lightweight Self-Hosted GRC Aligned with ISO 27005 & EBIOS RM  
 * **Description**: Self-hosted GRC application with asset valuation (CIA triad), quantitative risk management based on **ISO 27005** and French **ANSSI EBIOS RM**, statutory incident clocks (GDPR 72-hour notifications, NIS2, DORA), and public Trust Center capabilities. Operates a built-in MCP server and supports local LLM execution via Ollama.
@@ -163,7 +163,7 @@ We actively welcome contributions from the global risk, privacy, and compliance 
 2. **Create a Feature Branch** (`git checkout -b feature/add-new-grc-platform`).
 3. **Add or Update Entries**:
    - Ensure SaaS entries include verified company valuation/revenue, starting tier pricing, and explicit free tier / trial terms.
-   - For open-source projects, include the repository URL, official license, and social star badge.
+   - For open-source projects, include the repository URL, official license, and social Stars_Badge.
    - Place entries in proper sorted order.
 4. **Follow Markdown Conventions**: Keep descriptions objective, factual, and backed by citations.
 5. **Submit a Pull Request** with a concise summary of additions or updates.
